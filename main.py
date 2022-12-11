@@ -45,9 +45,9 @@ parser.add_argument('--num-workers', type=int, default=8, help='number of worker
 parser.add_argument('--warmup-epochs', type=int, default=10, help='number of warmup epochs')
 parser.add_argument('--num-epochs', type=int, default=500, help='maximum number of epochs')
 # parameters related to data and masks
-parser.add_argument('--train-path', type=str, default='../drive/MyDrive/data/train', help='path of training data')
-parser.add_argument('--val-path', type=str, default='../drive/MyDrive/data/val', help='path of validation data')
-parser.add_argument('--test-path', type=str, default='../drive/MyDrive/data/test', help='path of test data')
+parser.add_argument('--train-path', type=str, default='../data/train', help='path of training data')
+parser.add_argument('--val-path', type=str, default='../data/val', help='path of validation data')
+parser.add_argument('--test-path', type=str, default='../data/test', help='path of test data')
 parser.add_argument('--u-mask-path', type=str, default='./mask/undersampling_mask/mask_8.00x_acs24.mat', help='undersampling mask')
 parser.add_argument('--s-mask-up-path', type=str, default='./mask/selecting_mask/mask_2.00x_acs16.mat', help='selection mask in up network')
 parser.add_argument('--s-mask-down-path', type=str, default='./mask/selecting_mask/mask_2.50x_acs16.mat', help='selection mask in down network')
